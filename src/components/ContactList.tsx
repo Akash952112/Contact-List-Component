@@ -51,6 +51,7 @@ const ContactList = () => {
             </div>
           </div>
         ))}
+        {contactList.length == 0 && search && <div>No contacts found</div>}
       </div>
     </div>
   );
